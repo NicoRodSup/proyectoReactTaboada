@@ -1,0 +1,36 @@
+.counter{
+    text-align: center;
+    width: 170px;
+
+}
+
+.controles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    } 
+
+button{
+    width: 50px;
+    background-color: #006db6;
+    color: white;
+
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+.agregar{
+    width: 170px;
+    padding: 2px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: white;
+}
+p{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:black
+}
