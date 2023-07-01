@@ -15,7 +15,6 @@ const App = () => {
         </Routes>
 
       </BrowserRouter>
-      <ItemCount initial={1} stock={10} onAdd={(contador) => console.log(`cantidad agregada`, contador)} />
     </>
   )
 }

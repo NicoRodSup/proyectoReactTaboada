@@ -3,14 +3,15 @@ import './ItemDetail.css'
 
 const ItemDetail = ({ id, nombre, precio, img }) => {
     return (
+    <div className='div-contenedor'>
         <div className='item-detail'>
-            <div className='info-item'>
-                <h2>{nombre}</h2>
-                <h3>${precio}</h3>
-                <h3>{id}</h3>
-                <img src={img} alt={nombre} />
-            </div>
+                <h2 className='nombre-detail'>{nombre}</h2>
+                <h3 className='precio-detail'>${precio}</h3>
+                <h3 className='id-detail'>{id}</h3>
+                <img className='img-detail' src={img} alt={nombre} />
+                <ItemCount initial={1} stock={10} onAdd={(contador) => console.log(`cantidad agregada`, contador)} />
         </div>
+    </div>
     )
 }
 

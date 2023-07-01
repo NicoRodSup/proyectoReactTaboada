@@ -1,30 +1,51 @@
-.info-item > img{
-width: 100%;
-height: 100%;
+.img-detail{
+width: 70%;
+height: 70%;
+max-width: 1000px;
 }
 
+.div-contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+
+}
 .item-detail{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-radius: 1rem;
-    border-color: white;
+    border-radius: 2rem;
     background-color: white;
-    max-width: 260px;
-    
-}
-.info-items{
-    text-align: center;
-    border-radius: 1rem;
-    padding: 0.5rem;
+    justify-content: center; 
+    text-align: center;   
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: auto;
+    padding: 30px;
+    gap: 1px;
 }
 
-.info-item > h2{
-    font-size: 1.2rem;
+.nombre-detail{
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
     text-transform: uppercase;
-    
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.info-item > h3{
-    font-size: 1.3rem;
+.precio-detail{
+    font-size: 1.7rem;
     text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
+
+}
+.id-detail{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
 }
