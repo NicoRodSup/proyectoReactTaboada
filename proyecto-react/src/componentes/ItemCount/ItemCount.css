@@ -1,40 +1,60 @@
-.counter{
-    text-align: center;
-    width: 170px;
+.counter {
+    display: flex;
+    gap: 20px;
 
 }
 
-.controles{
+.controles {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    } 
+    gap: 10px;
+    height: 60px;
 
-button{
-    width: 50px;
+}
+
+button {
+    width: 40px;
     background-color: #006db6;
     color: white;
-    
-
     border-radius: 10px;
-    padding: 5px;
     font-weight: bolder;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
 }
-.agregar{
-    width: 200px;
+
+.agregar {
+    width: 300px;
     padding: 2px;
-    margin-top: 5px;
     font-weight: 800;
     font-size: 1rem;
     color: white;
-    height: 40px;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.8s;
 
 }
-p{
+
+.agregar:hover {
+    background-color: #0785bb;
+}
+
+p {
     text-align: center;
     padding: auto;
     margin: auto;
     font-size: 1.2rem;
     font-weight: bold;
-    color:black
+    color: black
+}
+
+@media (max-width:1100px) {
+    button {
+        width: 25px;
+        height: 35px;
+    }
+
+    .agregar {
+        max-width: 200px;
+        height: 35px;
+    }
 }

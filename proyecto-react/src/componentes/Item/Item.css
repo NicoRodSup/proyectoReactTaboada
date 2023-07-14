@@ -8,8 +8,9 @@
 .producto-imagen{
     max-width: 100%;
     border-radius: 1rem;
-    width: 260px;
-    height: 230px;
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
 }
 .productos{
     display: flex;
@@ -18,10 +19,9 @@
     border-radius: 1rem;
     border-color: white;
     background-color: white;
-    max-width: 400px;
     justify-content: center;
-    
-}
+    max-width: 500px;
+    }
 .info-productos{
     display: flex;
     flex-direction: column;
@@ -29,6 +29,7 @@
     border-radius: 1rem;
     padding: 0.5rem;
     align-items: center;
+    gap: 10px;
 
 }
 .link-productos{
@@ -45,7 +46,7 @@
     display: block;
 }
 .precio-producto {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 900;
     color: #006db6;
     letter-spacing: 0.1rem;
